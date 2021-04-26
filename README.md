@@ -1,0 +1,2 @@
+# Pauls-Coding
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/d7ec7b162fcd4d26aa5bb3e24c9eca98)](https://app.codacy.com/gh/RedGuy12/Pauls-Coding?utm_source=github.com&utm_medium=referral&utm_content=RedGuy12/Pauls-Coding&utm_campaign=Badge_Grade_Settings)
