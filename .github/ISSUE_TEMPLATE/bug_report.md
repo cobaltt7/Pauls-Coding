@@ -8,30 +8,37 @@ assignees: ''
 
 ---
 
-# *One line summary*
+# _One line summary_
 
 ## Describe the bug
-*A clear and concise description of what the bug is.*
+
+_A clear and concise description of what the bug is._
 
 ## To Reproduce
-*Steps to reproduce the behavior*
+
+_Steps to reproduce the behavior_
 
 ## Expected behavior
-*A clear and concise description of what you expected to happen.*
+
+_A clear and concise description of what you expected to happen._
 
 ## Screenshots
-*If applicable, add screenshots to help explain your problem.*
+
+_If applicable, add screenshots to help explain your problem._
 
 ## Device info
-*What device are you using?*
+
+_What device are you using?_
 
 ## Additional context
-*Add any other context about the problem here.*
-=======
+
+# _Add any other context about the problem here._
+
 about: Create a report and help us improve
 title: ""
 labels: bug
 assignees: ""
+
 ---
 
 # _One line summary_
@@ -59,4 +66,5 @@ _What device are you using?_
 ## Additional context
 
 _Add any other context about the problem here._
->>>>>>> Stashed changes
+
+> > > > > > > Stashed changes
