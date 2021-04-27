@@ -10,33 +10,27 @@ if (array_key_exists('keywords', $design)) {
 if (!array_key_exists('RIGHT', $design)) {
 	$d               = dir('.');
 	$design['RIGHT'] = '<ul id="list">';
-	while (($entry = $d->read()) !== FALSE) {
-		$hideFile = 0;
-		if (array_key_exists('showInclude', $design) && strpos($entry, $design['showInclude'])) {
-			$hideFile += strpos($entry, $design['showInclude']);
+	$filtered_dir    = array();
+	$directory       = array_diff(scandir($directory), array('..', '.', 'error_log'));
+	foreach ($directory as $folder) {
+		if (array_key_exists('showInclude', $design) && strpos($folder, $design['showInclude']) > -1) {
+			return;
 		}
 
-		if (array_key_exists('hideIs', $design)) {
-			$hideFile += $entry == $design['hideIs'];
+		if (array_key_exists('hideIs', $design) && $folder == $design['hideIs']) {
+			return;
 		}
 
-		$hideFile += $entry == 'error_log';
-		$hideFile += $entry == '.';
-		$hideFile += $entry == '..';
-		$hideFile -= strpos('            ' . $entry, 'index');
-		if ($hideFile > 1) {
-			$array[] = $entry;
-		}
+		$filtered_dir[] = $folder;
 	}
 
-	sort($array);
-	foreach ($array as $entry) {
-		$design['RIGHT'] .= "<li><a href=\"$entry\">$entry</a></li>";
+	sort($filtered_dir);
+	foreach ($filtered_dir as $folder) {
+		$design['RIGHT'] .= "<li><a href=\"$folder\">$folder</a></li>";
 	}
 
 	$design['RIGHT'] .= "</ul>";
-	$d->close();
-	if (!array_key_exists("AFTER", $design)) {
+	if (!array_key_exists("AFTER", $design) && array_key_exists('showInclude', $design)) {
 		$design['AFTER'] = "<script>list('" . $design['showInclude'] . "', document.getElementById('list'));</script>";
 	}
 }

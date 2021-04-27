@@ -520,6 +520,6 @@
 		"MD030": false
 	},
 	"[php]": {
-		"editor.defaultFormatter": "persoderlind.vscode-phpcbf"
+		"editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
 	}
 }
