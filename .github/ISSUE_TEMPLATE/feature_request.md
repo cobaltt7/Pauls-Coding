@@ -16,18 +16,21 @@ assignees: ""
 # One line summary
 
 ## What feature do you want?
+
 <<<<<<< Updated upstream
-*A clear and concise description of what you want.*
+_A clear and concise description of what you want._
 
 ## Why do you want this feature?
-*I'm always frustrated when ..., It would be nice if ...*
+
+_I'm always frustrated when ..., It would be nice if ..._
 
 ## Describe alternatives you've considered
-*A clear and concise description of any alternative solutions or features you've considered.*
+
+_A clear and concise description of any alternative solutions or features you've considered._
 
 ## Additional context
-*Add any other context or screenshots about the feature request here.*
-=======
+
+# _Add any other context or screenshots about the feature request here._
 
 _A clear and concise description of what you want._
 
@@ -42,4 +45,5 @@ _A clear and concise description of any alternative solutions or features you've
 ## Additional context
 
 _Add any other context or screenshots about the feature request here._
->>>>>>> Stashed changes
+
+> > > > > > > Stashed changes
