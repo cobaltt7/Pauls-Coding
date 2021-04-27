@@ -93,8 +93,6 @@ $design['keywords'] .= "PHP, MySQL, HTML, Java, JavaScript, CSS, Coding, practic
 		<div id="footer-links"> <a href="https://paul-s-reid.com/web-dev/">Home</a> | <a href="../">Up a level</a> | <a href="https://paul-s-reid.com/web-dev/other.php">Other Sites</a> </div>
 	</footer> <?= $design['AFTER'] ?> <script src="https://cdn.jsdelivr.net/npm/less">
 	</script>
-	<link rel="stylesheet" href="/web-dev/dango.css">
-	<script src="/web-dev/dango.js"></script>
 </body>
 
 </html>
