@@ -518,5 +518,8 @@
 	"markdownlint.config": {
 		"MD013": false,
 		"MD030": false
+	},
+	"[php]": {
+		"editor.defaultFormatter": "persoderlind.vscode-phpcbf"
 	}
 }

@@ -91,7 +91,9 @@ $design['keywords'] .= "PHP, MySQL, HTML, Java, JavaScript, CSS, Coding, practic
 	<footer> <img src="https://icon-library.com/images/three-gear-icon/three-gear-icon-14.jpg" alt="Paul's Coding" id="footer-logo">
 		<h1 id="footer-name">Paul's<br>Coding</h1>
 		<div id="footer-links"> <a href="https://paul-s-reid.com/web-dev/">Home</a> | <a href="../">Up a level</a> | <a href="https://paul-s-reid.com/web-dev/other.php">Other Sites</a> </div>
-	</footer> <?= $design['AFTER'] ?> <script src="https://cdn.jsdelivr.net/npm/less">
+	</footer>
+	<?= $design['AFTER'] ?>
+	<script src="https://cdn.jsdelivr.net/npm/less">
 	</script>
 </body>
 
