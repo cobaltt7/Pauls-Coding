@@ -22,17 +22,17 @@ function sortList(list) {
 }
 
 function list(split, list) {
-//	for (let count = 0; count < list.children.length; count++) {
-//		list.children[count].children[0].innerText = list.children[
-//			count
-//		].children[0]
-//			.getAttribute("href")
-//			.split(split)[0];
-//		list.children[count].setAttribute(
-//			"class",
-//			list.children[count].children[0]
-//				.getAttribute("href")
-//				.split(split)[1],
-//		);
-//	}
+	//	for (let count = 0; count < list.children.length; count++) {
+	//		list.children[count].children[0].innerText = list.children[
+	//			count
+	//		].children[0]
+	//			.getAttribute("href")
+	//			.split(split)[0];
+	//		list.children[count].setAttribute(
+	//			"class",
+	//			list.children[count].children[0]
+	//				.getAttribute("href")
+	//				.split(split)[1],
+	//		);
+	//	}
 }
