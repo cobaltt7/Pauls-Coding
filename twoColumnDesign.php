@@ -8,10 +8,9 @@ if (array_key_exists('keywords', $design)) {
 }
 
 if (!array_key_exists('RIGHT', $design)) {
-	$d               = dir('.');
 	$design['RIGHT'] = '<ul id="list">';
 	$filtered_dir    = array();
-	$directory       = array_diff(scandir($directory), array('..', '.', 'error_log'));
+	$directory       = array_diff(scandir('.'), array('..', '.', 'error_log'));
 	foreach ($directory as $folder) {
 		if (array_key_exists('showInclude', $design) && strpos($folder, $design['showInclude']) > -1) {
 			return;
@@ -79,8 +78,8 @@ $design['keywords'] .= "PHP, MySQL, HTML, Java, JavaScript, CSS, Coding, practic
 
 <body>
 	<div id="content">
-		<div class="column" id="left"> <?= $design['LEFT'] ?> </div>
-		<div class="column" id="right"> <?= $design['RIGHT'] ?> </div>
+		<div class="column" id="left"><?= $design['LEFT'] ?></div>
+		<div class="column" id="right"><?= $design['RIGHT'] ?></div>
 	</div>
 	<footer> <img src="https://icon-library.com/images/three-gear-icon/three-gear-icon-14.jpg" alt="Paul's Coding" id="footer-logo">
 		<h1 id="footer-name">Paul's<br>Coding</h1>
