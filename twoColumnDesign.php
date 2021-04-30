@@ -1,4 +1,9 @@
 <?php
+if (basename(__FILE__) == basename($_SERVER["SCRIPT_FILENAME"])) {
+	header("HTTP/1.1 403 Unauthorized");
+	die("Forbidden");
+}
+
 if (array_key_exists('title', $design)) {
 	$design['title'] .= " | Paul's Coding";
 }
