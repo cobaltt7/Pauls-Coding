@@ -1,9 +1,8 @@
 /vendor/
-/node_modules/
+**/node_modules/
 .env
 .DS_STORE
 composer.lock
 error_log
 package-lock.json
-Miscellaneous
 mysql.php

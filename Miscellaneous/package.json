@@ -1,0 +1,18 @@
+{
+  "name": "lighthouse-auditor",
+  "version": "1.0.0",
+  "main": ".github/workflows/lighthouse.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RedGuy12/lighthouse-auditor.git"
+  },
+  "author": "RedGuy12",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RedGuy12/lighthouse-auditor/issues"
+  },
+  "homepage": "https://github.com/RedGuy12/lighthouse-auditor#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
+}

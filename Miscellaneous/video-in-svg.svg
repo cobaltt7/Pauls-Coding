@@ -1,0 +1,14 @@
+<svg version="1.1"
+	xmlns="http://www.w3.org/2000/svg"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	width="800"
+	height="498">
+	<foreignObject width="800"
+		height="498">
+		<iframe xmlns="http://www.w3.org/1999/xhtml"
+			width="800"
+			height="498"
+			src="http://www.youtube.com/embed/bACX8BXHuEs"
+			frameborder="0"></iframe>
+	</foreignObject>
+</svg>

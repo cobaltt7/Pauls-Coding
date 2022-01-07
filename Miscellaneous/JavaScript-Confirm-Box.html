@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" hreflang="en">
+	<head>
+		<title>JavaScript Confirm Box</title>
+	</head>
+
+	<body>
+		<p
+			onclick="alertjs('https:/\/support.microsoft.com/en-us/help/4462934/windows-help-in-wordpad','https:/\/support.microsoft.com')"
+		>
+			"Classic Microsoft WordPad"
+		</p>
+		<script>
+			function alertjs(url, domain) {
+				if (confirm("Redircting to " + domain + "?")) {
+					open(url, "_blank");
+				}
+			}
+		</script>
+	</body>
+</html>

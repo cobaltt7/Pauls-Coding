@@ -1,0 +1,90 @@
+//You can add comments
+//Hello World
+
+//You can use variables
+@background-color: #f4f4f4;
+@font-family: tahoma;
+@primary-color: #3b5998;
+@secondary-color: #20b2aa;
+@line-height: 1em + 1em;
+
+body {
+	font-family: @font-family;
+	background: @background-color;
+	line-height: @line-height;
+	font-display: swap;
+}
+
+.primary-text {
+	color: @primary-color;
+}
+
+//All .primary-btn are also .btn now
+.primary-btn:extend(.btn) {
+	width: 500px;
+}
+
+.btn {
+	padding: 10px 15px;
+	border: 0;
+}
+
+//All h1 and h3 are also .bordered now
+.bordered {
+	border-top: dotted 1px #000;
+	border-bottom: solid 2px #000;
+}
+
+h1,
+h3 {
+	.bordered();
+}
+
+//Using .border-radius() with a radius in between the ( and the ) will set the border-radius
+.border-radius(@radius) {
+	border-radius: @radius;
+}
+
+.btn {
+	.border-radius(30px);
+}
+
+//You can nest elements. Use a & for pseudo-elements
+ul#menu {
+	list-style: none;
+
+	li {
+		padding: 10px 0;
+
+		a {
+			color: @secondary-color;
+			text-decoration: none;
+
+			&:hover {
+				color: #000;
+			}
+		}
+	}
+}
+
+//You can lighten colors easily
+ul#menu {
+	background-color: lighten(@secondary-color, 50%);
+}
+
+//You can add conditional staements to mix-ins
+.text-color(@a) when (lightness(@a) >=50%) {
+	color: black;
+}
+
+.text-color(@a) when (lightness(@a) < 50%) {
+	color: white;
+}
+
+.text-color(@a) {
+	background: @a;
+}
+
+.primary-btn:extend(.btn) {
+	.text-color(@primary-color);
+}
