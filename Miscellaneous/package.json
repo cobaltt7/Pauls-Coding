@@ -4,14 +4,14 @@
 	"main": ".github/workflows/lighthouse.js",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/RedGuy12/lighthouse-auditor.git"
+		"url": "git+https://github.com/cobaltt7/lighthouse-auditor.git"
 	},
 	"author": "RedGuy12",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/RedGuy12/lighthouse-auditor/issues"
+		"url": "https://github.com/cobaltt7/lighthouse-auditor/issues"
 	},
-	"homepage": "https://github.com/RedGuy12/lighthouse-auditor#readme",
+	"homepage": "https://github.com/cobaltt7/lighthouse-auditor#readme",
 	"dependencies": {
 		"node-fetch": "^2.6.1"
 	}
