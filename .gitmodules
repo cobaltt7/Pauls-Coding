@@ -1,42 +1,27 @@
 [submodule "Chemistry"]
 	path = Chemistry
-	url = https://github.com/RedGuy12/Chemistry.git
+	url = https://github.com/cobaltt7/Chemistry.git
 [submodule "CodeYourOwnWebsite"]
 	path = CodeYourOwnWebsite
-	url = https://github.com/RedGuy12/CodeYourOwnWebsite.git
+	url = https://github.com/cobaltt7/CodeYourOwnWebsite.git
 [submodule "DangoRain"]
 	path = DangoRain
-	url = https://github.com/RedGuy12/DangoRain.git
-[submodule "Doit"]
-	path = Doit
-	url = https://github.com/RedGuy12/Doit.git
-[submodule "DontLookChallengeHelper"]
-	path = DontLookChallengeHelper
-	url = https://github.com/RedGuy12/DontLookChallengeHelper.git
-[submodule "ExternalMySQL"]
-	path = ExternalMySQL
-	url = https://github.com/RedGuy12/ExternalMySQL.git
-[submodule "GetCoding"]
-	path = GetCoding
-	url = https://github.com/RedGuy12/GetCoding.git
-[submodule "HandNFoot-Scorecard"]
-	path = HandNFoot-Scorecard
-	url = https://github.com/RedGuy12/HandNFoot-Scorecard.git
+	url = https://github.com/cobaltt7/DangoRain.git
+[submodule "graphic-design-portfolio"]
+	path = graphic-design-portfolio
+	url = https://github.com/cobaltt7/graphic-design-portfolio.git
 [submodule "Learning-PHP-MySQL-JavaScript"]
 	path = Learning-PHP-MySQL-JavaScript
-	url = https://github.com/RedGuy12/Learning-PHP-MySQL-JavaScript.git
-[submodule "Scratch-Forums"]
-	path = Scratch-Forums
-	url = https://github.com/RedGuy12/Scratch-Forums.git
-[submodule "ScratchProgramInterface"]
-	path = ScratchProgramInterface
-	url = https://github.com/RedGuy12/ScratchProgramInterface.git
+	url = https://github.com/cobaltt7/Learning-PHP-MySQL-JavaScript.git
+[submodule "line-drawing-algorithm"]
+	path = line-drawing-algorithm
+	url = https://github.com/cobaltt7/line-drawing-algorithm.git
+[submodule "ScratchFormsParser"]
+	path = ScratchFormsParser
+	url = https://github.com/cobaltt7/ScratchFormsParser.git
 [submodule "Spider"]
 	path = Spider
-	url = https://github.com/RedGuy12/Spider.git
-[submodule "UnBlock"]
-	path = UnBlock
-	url = https://github.com/RedGuy12/UnBlock.git
+	url = https://github.com/cobaltt7/Spider.git
 [submodule "WordPress-Blog-Search"]
 	path = WordPress-Blog-Search
-	url = https://github.com/RedGuy12/WordPress-Blog-Search.git
+	url = https://github.com/cobaltt7/WordPress-Blog-Search.git

@@ -73,8 +73,8 @@ $design['keywords'] .= "PHP, MySQL, HTML, Java, JavaScript, CSS, Coding, practic
 	<meta name="msapplication-TileImage" content="https://icon-library.com/images/three-gear-icon/three-gear-icon-14.jpg">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 	<script src="https://kit.fontawesome.com/7ee5a2a00a.js" crossorigin="anonymous"> </script>
-	<link rel="stylesheet/less" href="https://paul-s-reid.com/web-dev/style.less" />
-	<script src="https://paul-s-reid.com/web-dev/script.min.js"> </script>
+	<link rel="stylesheet/less" href="/style.less" />
+	<script src="/script.min.js"> </script>
 	<meta property="og:title" content="<?= $design['title'] ?>">
 	<meta name="twitter:title" content="<?= $design['title'] ?>">
 	<meta name="keywords" content="<?= $design['keywords'] ?>">
