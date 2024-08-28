@@ -25,3 +25,6 @@
 [submodule "WordPress-Blog-Search"]
 	path = WordPress-Blog-Search
 	url = https://github.com/cobaltt7/WordPress-Blog-Search.git
+[submodule "less-sandbox"]
+	path = less-sandbox
+	url = https://github.com/cobaltt7/less-sandbox.git
