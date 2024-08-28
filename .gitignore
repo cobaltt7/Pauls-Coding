@@ -6,3 +6,4 @@ composer.lock
 error_log
 package-lock.json
 mysql.php
+.ffs_lock
