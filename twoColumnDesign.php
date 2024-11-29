@@ -71,7 +71,7 @@ $design['keywords'] .= "PHP, MySQL, HTML, Java, JavaScript, CSS, Coding, practic
 	<link rel="icon" href="https://icon-library.com/images/three-gear-icon/three-gear-icon-14.jpg" sizes="256x256">
 	<link rel="apple-touch-icon-precomposed" href="https://icon-library.com/images/three-gear-icon/three-gear-icon-14.jpg">
 	<meta name="msapplication-TileImage" content="https://icon-library.com/images/three-gear-icon/three-gear-icon-14.jpg">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.5.3/css/bootstrap.min.css" integrity="sha512-oc9+XSs1H243/FRN9Rw62Fn8EtxjEYWHXRvjS43YtueEewbS6ObfXcJNyohjHqVKFPoXXUxwc+q1K7Dee6vv9g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<script src="https://kit.fontawesome.com/7ee5a2a00a.js" crossorigin="anonymous"> </script>
 	<link rel="stylesheet/less" href="/style.less" />
 	<script src="/script.min.js"> </script>
@@ -91,8 +91,12 @@ $design['keywords'] .= "PHP, MySQL, HTML, Java, JavaScript, CSS, Coding, practic
 		<div id="footer-links"> <a href="https://paul-s-reid.com/web-dev/">Home</a> | <a href="../">Up a level</a> | <a href="https://paul-s-reid.com/web-dev/other.php">Other Sites</a> </div>
 	</footer>
 	<?= $design['AFTER'] ?>
-	<script src="https://cdn.jsdelivr.net/npm/less">
-	</script>
+	<script
+		src="https://cdnjs.cloudflare.com/ajax/libs/less.js/4.0.0/less.min.js"
+		integrity="sha512-Sd9bkuRWrLvdJvYFD2hGxUatm0HxJy8At4kbkCgr+u4BOz35aZBlGuUrRsx13cRGKWdt8QmoJEfTlxqy9Vv4Vw=="
+		crossorigin="anonymous"
+		referrerpolicy="no-referrer"
+	></script>
 </body>
 
 </html>
