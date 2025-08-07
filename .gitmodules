@@ -11,7 +11,7 @@
 	path = graphic-design-portfolio
 	url = https://github.com/cobaltt7/graphic-design-portfolio.git
 [submodule "Learning-PHP-MySQL-JavaScript"]
-	path = Learning-PHP-MySQL-JavaScript
+	path = LPMJ Book-php
 	url = https://github.com/cobaltt7/Learning-PHP-MySQL-JavaScript.git
 [submodule "line-drawing-algorithm"]
 	path = line-drawing-algorithm
