@@ -74,7 +74,7 @@ $design['keywords'] .= "PHP, MySQL, HTML, Java, JavaScript, CSS, Coding, practic
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.5.3/css/bootstrap.min.css" integrity="sha512-oc9+XSs1H243/FRN9Rw62Fn8EtxjEYWHXRvjS43YtueEewbS6ObfXcJNyohjHqVKFPoXXUxwc+q1K7Dee6vv9g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<script src="https://kit.fontawesome.com/7ee5a2a00a.js" crossorigin="anonymous"> </script>
 	<link rel="stylesheet/less" href="/style.less" />
-	<script src="/script.min.js"> </script>
+	<script src="/script.js"> </script>
 	<meta property="og:title" content="<?= $design['title'] ?>">
 	<meta name="twitter:title" content="<?= $design['title'] ?>">
 	<meta name="keywords" content="<?= $design['keywords'] ?>">
