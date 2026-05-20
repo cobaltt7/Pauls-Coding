@@ -1,1 +1,13 @@
-{ "git-submodules": { "automerge": true } }
+{
+	"packageRules": [
+		{
+			"matchManagers": ["git-submodules"],
+			"matchPackageNames": ["*"],
+			"groupName": "all submodules",
+			"schedule": ["every day"],
+			"automerge": true,
+			"automergeType": "branch",
+			"ignoreTests": true
+		}
+	]
+}
