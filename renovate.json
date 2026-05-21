@@ -4,7 +4,7 @@
 			"matchManagers": ["git-submodules"],
 			"matchPackageNames": ["*"],
 			"groupName": "all submodules",
-			"schedule": ["every day"],
+			"schedule": ["once a day"],
 			"automerge": true,
 			"automergeType": "branch",
 			"ignoreTests": true
