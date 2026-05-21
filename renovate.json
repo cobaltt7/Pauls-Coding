@@ -3,6 +3,7 @@
 		{
 			"matchManagers": ["git-submodules"],
 			"matchPackageNames": ["*"],
+			"schedule": ["* 8-12 * * *"]
 			"groupName": "all submodules",
 			"automerge": true,
 			"automergeType": "branch",
